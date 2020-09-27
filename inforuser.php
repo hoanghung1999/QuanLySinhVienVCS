@@ -29,8 +29,8 @@ echo '
     </div>
     <ul class="nav navbar-nav">	
       <li ><a href="fuctionforsv.php">Home</a></li>
-      <li><a onclick="window.open("recievetask.php", "_self")">Xem bài tập</a></li>
-      <li><a onclick="window.open("message.php", "_self")" >Xem tin nhắn</a></li>
+      <li><a href="recievetask.php">Xem bài tập</a></li>
+      <li><a href="message.php" >Xem tin nhắn</a></li>
       <li class="active"><a href="inforuser.php">Xem thông tin người dùng</a></li>
 	  <li ><a  href="updateprofile.php">Sửa thông tin cá nhân</a></li>
 	  <li><a href="deletesesstion.php">Thoát</a></li>

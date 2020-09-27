@@ -24,9 +24,8 @@ session_start();
       <li  onclick="window.open('fuctionforsv.php','_self')"><a>Home</a></li>
       <li class="active"><a onclick="window.open('recievetask.php', '_self')">Xem bài tập</a></li>
       <li><a onclick="window.open('message.php', '_self')" >Xem tin nhắn</a></li>
-
-      <li><a onclick="window.open('updateprofile.php', '_self')">Sửa thông tin cá nhân</a></li>
       <li><a onclick="window.open('inforuser.php', '_self')">Xem thông tin người dùng</a></li>
+      <li><a onclick="window.open('updateprofile.php', '_self')">Sửa thông tin cá nhân</a></li>
       <li><a onclick="window.open('deletesesstion.php', '_self')">Thoát</a></li>
     </ul>
   </div>

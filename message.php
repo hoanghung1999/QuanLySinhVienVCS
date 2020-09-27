@@ -47,9 +47,8 @@ echo '
       <li ><a href="fuctionforsv.php">Home</a></li>
       <li><a href="recievetask.php">Xem bài tập</a></li>
       <li class="active"><a href="message.php" >Xem tin nhắn</a></li>
-
-      <li><a  href="updateprofile.php">Sửa thông tin cá nhân</a></li>
       <li><a href="inforuser.php">Xem thông tin người dùng</a></li>
+      <li><a  href="updateprofile.php">Sửa thông tin cá nhân</a></li>
       <li><a href="deletesesstion.php">Thoát</a></li>
     </ul>
   </div>

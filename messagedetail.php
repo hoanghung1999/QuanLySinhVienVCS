@@ -19,22 +19,45 @@ require_once('dbhelp.php');
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-
-            <ul class="nav navbar-nav ">
-                <li onclick="window.open('fuctionforql.php','_self')"><a>Home</a></li>
-                <li ><a onclick="window.open('givetask.php', '_self')">Giao Bài Tập</a></li>
-                <li class="active"><a onclick="window.open('message.php', '_self')">Xem Tin Nhắn</a></li>
-                <li><a onclick="window.open('inforsv.php', '_self')">Thông Tin Sinh Viên</a></li>
-
-                <li><a onclick="window.open('inforuser.php', '_self')">Thông Tin Người Dùng</a></li>
-                
-                <li><a onclick="window.open('updateprofile.php', '_self')">Sửa Thông Tin Cá nhân</a></li>
-                <li><a onclick="window.open('deletesesstion.php', '_self')">Thoát</a></li>
-            </ul>
-        </div>
-    </nav>
+<?php
+if($_SESSION['chucvu']=='SV'){
+echo '
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">	
+      <li ><a href="fuctionforsv.php">Home</a></li>
+      <li><a href="recievetask.php">Xem bài tập</a></li>
+      <li class="active"><a onclick="window.open("message.php", "_self")" >Xem tin nhắn</a></li>
+      <li ><a href="inforuser.php">Xem thông tin người dùng</a></li>
+	  <li ><a  href="updateprofile.php">Sửa thông tin cá nhân</a></li>
+	  <li><a href="deletesesstion.php">Thoát</a></li>
+    </ul>
+  </div>
+</nav>';}
+else{
+	
+		echo
+		'<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	   
+		<ul class="nav navbar-nav ">
+		  <li ><a href="fuctionforql.php">Home</a></li>
+		  <li><a href="givetask.php">Giao Bài Tập</a></li>
+		  <li class="active"><a href="message.php">Xem Tin Nhắn</a></li>
+		  <li><a href="inforsv.php" >Thông Tin Sinh Viên</a></li>
+	
+		  <li ><a href="inforuser.php">Thông Tin Người Dùng</a></li>
+		  
+		  <li><a href="updateprofile.php">Sửa Thông Tin Cá nhân</a></li>
+		  <li><a href="deletesesstion.php">Thoát</a></li>
+		</ul>
+	  </div>
+	</nav>';
+	
+}
+?>
 
     <div class="container">
      
