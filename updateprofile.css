@@ -1,0 +1,21 @@
+.center__update{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.trungtam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.trungtam label, .trungtam input, .trungtam select{
+    flex: 1;
+}
+.center__update form{
+    width: 40%;
+}

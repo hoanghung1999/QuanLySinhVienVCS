@@ -1,0 +1,44 @@
+
+.trungtam{
+    width: 513px;
+    height: 34px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.dis__trungtam{
+    margin-top: 100px;
+}
+
+.trungtam input:last-child{
+    width: 400px;
+}
+
+.btn-success {
+    margin-left: 582px;
+}
+
+.table__area{
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  .des__btn{
+      position: absolute;
+      left: 250px;
+      margin-top: 50px;
+  }
+  th, h2{
+      text-transform: uppercase;
+  }
+  h2{
+      margin-top: 50px;
+  }
